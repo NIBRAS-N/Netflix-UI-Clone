@@ -7,3 +7,7 @@
 - ###  Note: `Industry standard` file structuring is not followed here. For `industry standard`  and `clean code` , take  a look at these projects of mine :
     - [Nib-stram](https://github.com/NIBRAS-N/Nib-Stram)
     - [Nib-sociorama](https://github.com/NIBRAS-N/Nib-Sociorama)
+
+- ### Overview:
+<img src="Capture2.PNG">
+<img src="Capture3.PNG">
