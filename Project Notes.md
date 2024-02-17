@@ -22,7 +22,7 @@
 
 - ### Example  OF some api:
 
-    - <img src="Capture.PnG">
+    - <img src="Capture.PNG">
     - Add your api key in the last of api.
     - https://api.themoviedb.org/3/movie/now_playing?api_key=`YOUR API KEY`
 - ### For image api :
