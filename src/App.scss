@@ -1,0 +1,55 @@
+$bg-color:rgb(12, 12, 12);
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@300;400;500;600&family=Inter:wght@200;300;400;500;600;700;800;900&family=Permanent+Marker&family=Piazzolla:ital,wght@0,900;1,600;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,500&display=swap');
+*{
+    padding:0%;
+    margin:0%;
+    // border: 2px solid red;
+    font-family: "Poppins";
+    font-weight: 400;   
+    &::-webkit-scrollbar{
+        display: none;
+    }
+    // box-sizing: border-box;
+}
+
+.header{
+    background-color: $bg-color;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding: 1rem;
+    height: 40px;
+    
+    >svg{
+        color: whitesmoke;
+        font-size: 1.8rem;
+        cursor: pointer;
+
+        & :hover{
+            color: rgb(176, 12, 12);
+        }    
+    }
+
+    >img{
+        height: 100%;
+    }
+    >div{
+        
+        margin-left: 2rem;
+        width: 100%;
+        display: flex;
+        gap: 1.5rem;
+        text-decoration: none;
+        // width: 100%;
+        box-sizing: border-box;
+        >a{
+            color: white;
+            text-decoration: none;
+            font-size: 1.2rem;
+            font-weight: 300;
+        }
+    }
+    
+}
